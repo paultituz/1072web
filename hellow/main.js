@@ -7,6 +7,9 @@ $(document).ready(function(){
         var numberOfLisItem = driver.length;
         var randomChildNumber = Math.floor(Math.random()*numberOfLisItem);
         
+        //document.getElementById("H1").style.color="white";   
+       
+        
         $("H1").text(driver[randomChildNumber].name);
         $("h2").text("Age: " + driver[randomChildNumber].age);
         $("h3").text("Nationality: " + driver[randomChildNumber].Nationality);
